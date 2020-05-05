@@ -30,18 +30,7 @@ cout << c << endl;
             w->Show();  
             delete w ;          
             break;
-        case '2':
-            Measure *m;
-            m = new Measure() ; 
-            m->Show();  
-            delete m ;                     
-            break;
-        case '3':
-            Stitch180 *s;
-            s = new Stitch180() ; 
-            s->Show();  
-            delete s ;                     
-            break;            
+              
         case 27:
             exit(1);
             break;
